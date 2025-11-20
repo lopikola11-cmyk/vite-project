@@ -20,7 +20,7 @@ This app is scalable, user-friendly, and supports multiple chat sessions, persis
   - Messages  
   - Sender info  
   - Unique message IDs  
-- Chat history stays even after you refresh or close the app
+- Chat history stays even after refreshing or closing the app
 
 ### 🔹 **3. URL Parameter Routing**
 Each chat is accessible using:
@@ -51,10 +51,10 @@ If a chat ID exists in the URL:
 - Smooth and accessible layout  
 
 ### 🔹 **7. Scalable Frontend Architecture**
-The project was fully planned to be:
+Designed to be:
 - Extensible  
 - Maintainable  
-- Easy to integrate with ANY future backend  
+- Easy to connect with ANY backend  
 
 ---
 
@@ -66,8 +66,8 @@ src/
 ├── assets/
 │   ├── robot.png
 │   ├── user.png
-│   ├── screenshot-home.png
-│   ├── screenshot-chat.png
+│   ├── screenshot1.png
+│   ├── screenshot2.png
 │
 ├── components/
 │   ├── AiStyling.jsx
@@ -83,8 +83,6 @@ src/
 ├── index.css
 ```
 
-You can rename your screenshots however you want — just update the filenames below.
-
 ---
 
 # 📸 **Screenshots**
@@ -95,13 +93,9 @@ You can rename your screenshots however you want — just update the filenames b
 ### 💬 Chat Interface
 ![Chat Interface](./src/assets/screenshot2.png)
 
-(Replace the filenames if your screenshots have different names.)
-
 ---
 
 # 💾 **LocalStorage Format**
-
-Each chat is stored like this:
 
 ```json
 {
@@ -121,12 +115,11 @@ Each chat is stored like this:
 
 - **React 18**  
 - **Vite**  
-- **JavaScript Modules**  
-- **localStorage API**  
-- **URLSearchParams**  
-- **SuperSimpleDev Chatbot (mock backend)**  
+- **LocalStorage API**  
+- **URLSearchParams API**  
+- **SuperSimpleDev Chatbot**  
 - **CSS**  
-- **GitHub Pages (deployment)**  
+- **GitHub Pages**  
 
 ---
 
