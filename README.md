@@ -90,10 +90,10 @@ You can rename your screenshots however you want — just update the filenames b
 # 📸 **Screenshots**
 
 ### 🏠 Home Page
-![Home Page](./src/assets/screenshot-home.png)
+![Home Page](./src/assets/screenshot1.png)
 
 ### 💬 Chat Interface
-![Chat Interface](./src/assets/screenshot-chat.png)
+![Chat Interface](./src/assets/screenshot2.png)
 
 (Replace the filenames if your screenshots have different names.)
 
