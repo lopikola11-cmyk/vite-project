@@ -1,0 +1,67 @@
+/* Chat_input.css – Only styles used by Chat_input.jsx */
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  min-width: 400px;
+  max-width: 1000px;
+  gap: 12px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.input-div input {
+  min-width: 400px;
+  width: 100%;
+  max-width: 700px;
+  height: 48px;
+  padding: 0 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input-div input:focus {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.input-div input::placeholder {
+  color: #94a3b8;
+}
+
+.input-div button {
+  background-color: #10b981;     /* nice green */
+  color: white;
+  width: 100px;
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.input-div button:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4);
+}
+
+.input-div button:active {
+  transform: translateY(0);
+}
+
+/* Optional: remove the weird red class you had */
+.bomba {
+  background-color: red !important;   /* only if you still need it for debugging */
+}

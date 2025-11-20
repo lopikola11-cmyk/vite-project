@@ -1,0 +1,40 @@
+/* App.css – ONLY the styles used directly in App.jsx */
+
+
+/* Main wrapper */
+.All {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+/* Center column (contains Chat_input + Chat_Message) */
+.input-Messages {
+  width: 100%;
+  min-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;                     /* takes the remaining space after sidebar */
+}
+
+/* Welcome message (used in App.jsx) */
+.welcome-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(30, 41, 59, 0.95);
+  color: white;
+  padding: 30px 50px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
