@@ -46,7 +46,7 @@ If a chat ID exists in the URL:
 
 ### 🔹 **6. Friendly, Clean UI**
 - Beautiful CSS styling  
-- Sidebar for navigation  
+- Sidebar navigation  
 - Chat bubbles with icons  
 - Smooth and accessible layout  
 
@@ -66,6 +66,8 @@ src/
 ├── assets/
 │   ├── robot.png
 │   ├── user.png
+│   ├── screenshot-home.png
+│   ├── screenshot-chat.png
 │
 ├── components/
 │   ├── AiStyling.jsx
@@ -81,39 +83,25 @@ src/
 ├── index.css
 ```
 
-### 🔹 **AiStyling.jsx**
-Handles:
-- Sidebar  
-- Chat list  
-- Chat deletion  
-- URL management  
+You can rename your screenshots however you want — just update the filenames below.
 
-### 🔹 **Chat_input.jsx**
-Handles:
-- Sending messages  
-- Saving conversations  
-- Creating new chat sessions  
-- Updating localStorage  
-- Handling first message logic  
+---
 
-### 🔹 **Chat_Message.jsx**
-Renders all messages:
-- Robot messages (with robot icon)  
-- User messages (with user icon)
+# 📸 **Screenshots**
 
-### 🔹 **App.jsx**
-Main controller:
-- Loads chats on startup  
-- Syncs with URL  
-- Tracks active chat  
-- Shows welcome message  
-- Connects all components together  
+### 🏠 Home Page
+![Home Page](./src/assets/screenshot-home.png)
+
+### 💬 Chat Interface
+![Chat Interface](./src/assets/screenshot-chat.png)
+
+(Replace the filenames if your screenshots have different names.)
 
 ---
 
 # 💾 **LocalStorage Format**
 
-Chats are stored like this:
+Each chat is stored like this:
 
 ```json
 {
@@ -160,14 +148,6 @@ App runs at:
 
 ---
 
-# 📸 **Screenshots (Optional)**
-
-```
-![App Screenshot](./src/assets/screenshot.png)
-```
-
----
-
 # 🔮 **Future Improvements**
 
 - Add search functionality  
@@ -202,4 +182,3 @@ Unauthorized use of this code is strictly prohibited.
 **Abderrahman Zerouali**  
 Creator & Developer of ABDouchat  
 100% original design, structure, and implementation
-
