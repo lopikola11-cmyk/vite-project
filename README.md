@@ -17,16 +17,16 @@ Everything is handled on the frontend without any backend.
 # ⭐ Features
 
 ## 🔹 ChatGPT-Style Multi-Chat System
-- Unlimited chat sessions  
-- Each chat has a unique ID using crypto.randomUUID()  
+- Unlimited chat sessions
+- Each chat has a unique ID using crypto.randomUUID()
 - Auto chat names (Chat N:1, Chat N:2, …)
 
 ## 🔹 Persistent Chat Storage
 Chats are stored permanently using localStorage:
-- Messages  
-- Sender (user or robot)  
-- Unique message IDs  
-- Chat name  
+- Messages
+- Sender (user or robot)
+- Unique message IDs
+- Chat name
 
 Sessions remain even after closing the browser.
 
@@ -43,25 +43,25 @@ If a session exists:
 ## 🔹 AI Responses
 - User sends a message
 - Robot replies using SuperSimpleDev chatbot logic
-- Both messages saved per-chat  
+- Both messages saved per-chat
 - Chat bubbles styled like ChatGPT
 
 ## 🔹 Delete Chats
-- Remove any chat  
-- If active chat is deleted, UI resets  
-- URL resets  
-- Storage updates instantly  
+- Remove any chat
+- If active chat is deleted, UI resets
+- URL resets
+- Storage updates instantly
 
 ## 🔹 Clean ChatGPT-Inspired UI
-- Sidebar with chat list  
-- Smooth conversation UI  
-- Clean message bubbles  
-- User + robot icons  
+- Sidebar with chat list
+- Smooth conversation UI
+- Clean message bubbles
+- User + robot icons
 
 ## 🔹 Scalable Frontend Architecture
-- Easy to extend  
-- Maintains clean component separation  
-- Ready for future backend integration  
+- Easy to extend
+- Maintains clean component separation
+- Ready for future backend integration
 
 ---
 
@@ -116,14 +116,14 @@ src/
 
 # 🔧 Technologies Used
 
-- React 18  
-- Vite  
-- LocalStorage API  
-- URLSearchParams  
-- crypto.randomUUID()  
-- SuperSimpleDev chatbot logic  
-- CSS  
-- GitHub Pages  
+- React 18
+- Vite
+- LocalStorage API
+- URLSearchParams
+- crypto.randomUUID()
+- SuperSimpleDev chatbot logic
+- CSS
+- GitHub Pages
 
 ---
 
@@ -139,19 +139,19 @@ http://localhost:5173/
 
 # 🌐 Live Demo
 
-https://lopikola11-cmyk.github.io/chatgpt-clone/
+https://lopikola11-cmyk.github.io/vite-project/
 
 ---
 
 # 🔮 Future Improvements
 
-- Search chat feature  
-- Light/Dark mode  
-- Export/import chat history  
-- Replace robot with real AI (OpenAI / Groq API)  
-- Animations and subtle transitions  
-- Voice input  
-- Improved mobile UI  
+- Search chat feature
+- Light/Dark mode
+- Export/import chat history
+- Replace robot with real AI (OpenAI / Groq API)
+- Animations and transitions
+- Voice input
+- Improved mobile UI
 
 ---
 
@@ -159,7 +159,7 @@ https://lopikola11-cmyk.github.io/chatgpt-clone/
 
 Copyright (c) 2025 Abderrahman Zerouali
 
-All work is original.  
+All work is original.
 Do not copy, modify, reuse, distribute, or sell any code or assets without written permission.
 
 ---
