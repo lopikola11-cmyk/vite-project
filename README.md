@@ -76,16 +76,16 @@ src/
 │   ├── screenshot2.png
 │
 ├── components/
-│   ├── AiStyling.jsx
+│   ├── AiStyling.tsx
 │   ├── AiStyling.css
-│   ├── Chat_input.jsx
+│   ├── Chat_input.tsx
 │   ├── Chat_input.css
-│   ├── Chat_Message.jsx
+│   ├── Chat_Message.tsx
 │   ├── Chat_Message.css
 │
-├── App.jsx
+├── App.tsx
 ├── App.css
-├── main.jsx
+├── main.tsx
 ├── index.css
 
 ---
