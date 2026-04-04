@@ -4,7 +4,7 @@ import './index.css'
 
 import Lola from './App.js'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Lola/>
   </StrictMode>,
